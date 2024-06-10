@@ -1,0 +1,45 @@
+2024-06-11T19:18:52,387 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-11T19:18:52,424 INFO  com.ms.email.EmailApplication - Starting EmailApplication using Java 17.0.10 with PID 180116 (C:\Users\User\OneDrive\Documentos\Projects\EmailSender\target\classes started by User in C:\Users\User\OneDrive\Documentos\Projects\EmailSender)
+2024-06-11T19:18:52,430 DEBUG com.ms.email.EmailApplication - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-11T19:18:52,430 INFO  com.ms.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-11T19:18:52,999 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11T19:18:53,041 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2024-06-11T19:18:53,492 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-11T19:18:53,497 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-11T19:18:53,498 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-11T19:18:53,499 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-11T19:18:53,544 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-11T19:18:53,546 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1078 ms
+2024-06-11T19:18:53,652 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11T19:18:53,697 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-11T19:18:53,735 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-11T19:18:53,967 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-11T19:18:53,987 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-11T19:18:54,117 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1131aead
+2024-06-11T19:18:54,119 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-11T19:18:54,705 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-11T19:18:54,734 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11T19:18:54,937 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11T19:18:55,279 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-11T19:18:55,288 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-11T19:18:55,290 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [rat.rmq2.cloudamqp.com:5671]
+2024-06-11T19:18:55,602 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#52f71d2:0/SimpleConnection@65c634f2 [delegate=amqp://hotmuimp@35.180.222.149:5671/hotmuimp, localPort=51599]
+2024-06-11T19:18:55,841 INFO  com.ms.email.EmailApplication - Started EmailApplication in 3.717 seconds (process running for 4.213)
+2024-06-11T19:19:28,325 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-11T19:19:28,325 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-11T19:19:28,325 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-06-11T19:19:28,353 TRACE com.ms.email.controller.EmailController - TRACE
+2024-06-11T19:19:28,353 DEBUG com.ms.email.controller.EmailController - DEBUG
+2024-06-11T19:19:28,353 INFO  com.ms.email.controller.EmailController - INFO
+2024-06-11T19:19:28,353 WARN  com.ms.email.controller.EmailController - WARN
+2024-06-11T19:19:28,353 ERROR com.ms.email.controller.EmailController - ERROR
+2024-06-11T19:19:28,353 FATAL com.ms.email.controller.EmailController - FATAL
+2024-06-11T19:19:28,523 WARN  org.springframework.data.web.config.SpringDataJacksonConfiguration$PageModule$PlainPageSerializationWarning - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-06-11T19:22:54,260 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-06-11T19:22:54,316 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-06-11T19:22:54,361 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11T19:22:54,362 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-06-11T19:22:54,364 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
